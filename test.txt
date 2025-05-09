@@ -1,0 +1,46 @@
+RANJANI KOUSHIK
+ | ranjanikoushik@gatech.edu | Linkedin | Denver, CO
+• Georgia Institute of Technology Aug 2023 - May 2026 B.S. Computer Science, GPA 3.89
+◦ Relevant coursework: Intro-Artificial Intell, Machine Learning, Operating Systems, Dsgn & Analysis-Algorithms, Data Structures,
+Object Oriented Prog, Systems and Networks, Objects and Design, Computer Organization and Architecture
+EXPERIENCE
+• Georgia Tech: Vision Cognition Computation [] Feb 2024 - Present Researcher at Ratan Murty’s Lab Group Atlanta, US
+◦ Developing ANN-based linear regression brain models of the PPA, OPA, and RSC by leveraging the PyTorch and Sklearn Machine
+Learning libraries. Running inference on Image-Net and black/white box interpretability techniques such as MaCO, as well as recreating fMRI experiments on the models to decipher the true function of these brain-regions.
+◦ Learnt to train ResNet50-Clip, AlexNet, etc., on observed fMRI data for natural images. Currently designing experiments to measure responses to sketches/abstract figures. Learning to manipulate taskonomy models and vision-language models like CLIP.
+• Georgia Tech: PAIR Lab [] April 2024 - Present Researcher at Animesh Garg’s Lab Group Atlanta, US ◦ Fullstack development of a Teleop App in Flutter for scaling remote robot data collection on Nvidia’s Isaac Sim and MuJoCo.
+◦ Wrote a device interface class to decipher controller poses from Meta VR (VR app made on Unity), Keyboards, and Space-Mouse.
+◦ Implemented client-server TCP and WebRTC communication as well as Http streaming on Flask web browser to view teleoperation.
+• Siemens Intern May 2024 - Aug 2024 Infrastructure and Security Boulder, US
+◦ Designed and implemented a web application in React and NodeJS for automated reporting of vulnerabilities in third-party
+components from NIST NVD, and included automated data import into defect management systems.
+◦ Created GitLab CI/CD pipelines to manage and demo internal vulnerability scanners of .NET applications.
+◦ Coded Python script automations with Jira API and performed Black Duck Binary Analysis.
+◦ Worked in a Scrum-structured team and observed security analysis of various projects by participating in threat and risk analysis discussions.
+• Healiam, Founder Aug 2022 - Present Medical Information Tech Startup Remote
+◦ Democratizing healthcare by optimizing the blood testing process to provide affordable direct-to-consumer blood testing. Built the
+company to 100k annual recurring revenue since launch in Oct 2022.
+◦ Engineered a high performance Laboratory Information System in Python. Developed scripts to extract data via serial port from
+blood testing machines and upload them to the cloud.
+◦ Utilized Firebase database for queuing and push message technology, and state of the art cloud technologies to implement solutions across client, phlebotomist, and backend.
+SKILLS
+• Programming Languages: Python, Java, C, JavaScript, SQL, YAML, Matlab
+• Packages and Tools: Pytorch, Sklearn, NodeJS, React, Flask, Express, Linux, Unix, Facebook Ad management, Excel
+• Machinery: Senior lab technician level experience on all Beckman Coulter, Sysmex, and TOSOH products
+PROJECTS
+• Operating System Development – xv6 Kernel Enhancement Project Tools: C, Assembly
+◦ Implemented copy-on-write fork and zero-initialized data segments to optimize memory usage, and integrated FIFO and
+Round-Robin CPU schedulers for improved task management.
+◦ Built a lightweight threading library with spinlock and mutex support for kernel-level sync, created a boot-time login system with basic user authentication.
+• Class Registration Web Scrapper Aug 2024 Tools: Python
+◦ Used Python’s Selenium to automatically ping a class waitlist and inform client if a spot opens. Used by more than 10 students at
+Georgia Tech.
+HONORS AND AWARDS
+• Zell Miller Scholar
+◦ Awarded a merit-based full tuition scholarship.
+• President’s Undergraduate Research Award, Georgia Tech
+◦ Awarded a salary to conduct undergraduate research with Georgia Tech faculty.
+• Colorado 25 Under 25, Inno Magazine
+◦ Recognized in Colorado’s Inno Under 25 list for being one of the state’s most effective innovators and entrepreneurs under 25 years
+March 2025
+old.

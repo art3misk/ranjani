@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ranjani Koushik</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      margin: 0;
+    }
+    img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 2px solid #ddd;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    p {
+      max-width: 500px;
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    .links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0077b5;
+      font-weight: bold;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 400px;
+    }
+    input[type="text"] {
+      padding: 10px;
+      font-size: 16px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #0077b5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #005f8c;
+    }
+    #output-text {
+      margin-top: 20px;
+      background: #e8f0fe;
+      padding: 10px;
+      border-left: 4px solid #4285f4;
+      border-radius: 5px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+    <img src="{{ url_for('static', filename='ranjani.jpeg') }}">
+  <h1>Ranjani Koushik</h1>
+  <p>
+    Hi! I am a Computer Science Major at Georgia Tech. I like robotics and learning about the brain. Also racquetball!
+    Ask my chatbot more questions about me.
+  </p>
+
+  <div class="links">
+    <a href="https://yourdomain.com/resume_image.jpg" target="_blank">Resume</a>
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+  </div>
+
+  <form method="POST">
+    <input type="text" name="user_input" id="user_input" placeholder="Ask me something...">
+    <input type="submit" value="Submit">
+  </form>
+
+  {% if output %}
+    <div id="output-text">{{ output }}</div>
+  {% endif %}
+
+</body>
+</html>
