@@ -2,9 +2,19 @@ from flask import Flask, request, render_template
 from google import genai
 import os
 
+
 app = Flask(__name__)
 
+with open('test.txt', 'r') as file:
+    content = file.read()
+
+gemini_key = os.getenv("GENAIAPIKEY")
+
+client = genai.Client(api_key=gemini_key)
+chat = client.chats.create(model="gemini-2.0-flash")
+
 @app.route('/', methods=['GET', 'POST'])
+
 
 def index():
     if request.method == 'POST':
@@ -18,11 +28,4 @@ def query_document(question):
     return response.text
 
 if __name__ == '__main__':
-    with open('test.txt', 'r') as file:
-        content = file.read()
-    
-    gemini_key = os.getenv("GENAIAPIKEY")
-
-    client = genai.Client(api_key=gemini_key)
-    chat = client.chats.create(model="gemini-2.0-flash")
     app.run(debug=True)
