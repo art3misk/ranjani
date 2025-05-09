@@ -21,7 +21,7 @@ if __name__ == '__main__':
     with open('test.txt', 'r') as file:
         content = file.read()
     
-    gemini_key = os.getenv('GENAIAPIKEY')
+    gemini_key = os.getenv("GENAIAPIKEY")
 
     client = genai.Client(api_key=gemini_key)
     chat = client.chats.create(model="gemini-2.0-flash")
